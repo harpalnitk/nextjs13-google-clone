@@ -32,3 +32,7 @@ favicon is also added automatically
  and change favicon.ico to favicon.svg in layout head section
 
  Add a favicon.ico, icon.(ico|jpg|jpeg|png|svg), or apple-icon.(jpg|jpeg|png|svg) file to the root segment
+
+
+ ## Icons from react-icons
+ >npm install react-icons --save
