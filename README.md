@@ -36,3 +36,7 @@ favicon is also added automatically
 
  ## Icons from react-icons
  >npm install react-icons --save
+
+ ## for country name in this app
+  use website https://extreme-ip-lookup.com/    is not free now
+  so use   http://ip-api.com/json/
