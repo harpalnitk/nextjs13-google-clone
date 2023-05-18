@@ -40,3 +40,12 @@ favicon is also added automatically
  ## for country name in this app
   use website https://extreme-ip-lookup.com/    is not free now
   so use   http://ip-api.com/json/
+
+  ## For search
+  1. go to developers.google.com
+  2. in products search for programmabale search engine
+  3. JSON API
+  4. Using REST
+
+  ## to parse html in the search result use package
+  >npm i html-react-parser
