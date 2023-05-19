@@ -1,3 +1,26 @@
+// every page has a dynamic option that can be exported
+
+// export const dynamic = 'auto'   //default
+
+// if we change it to
+
+// export const dynamic = 'force-dynamic'  // SSR like getServerSideProps
+
+// i.e. it will always use SSR without caching (always fetch latest data)
+
+// if we change to 
+
+// export const dynamic = 'force-static'  //SSG  getStaticProps
+// caches the page indefinitely
+
+// if we change to
+
+// export const revalidate = 6900 // ISR
+
+
+
+
+export const dynamic='force-dynamic';
 //this page is server side
 //in next12 we used getServerSideProps()
 import Link from "next/link";
